@@ -1,0 +1,32 @@
+/* setting */
+:root {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+}
+
+.left {
+  background-color: rgb(255, 185, 185);
+  border-right: 2px solid rgb(186, 16, 16);
+}
+.right {
+  background-color: rgb(177, 255, 174);
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 750px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}

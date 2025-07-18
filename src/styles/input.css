@@ -1,0 +1,71 @@
+hr {
+    border: 0;
+    width: 90%;
+    margin: auto;
+    height: 3px;
+    background-color: rgb(153, 51, 51);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.input {
+    background-color: rgb(255, 185, 185);
+    padding: 0.2rem 3rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.input h2 {
+    color: rgb(186, 16, 16);
+}
+.title img {
+    width: 3rem;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+label {
+    color: rgb(186, 16, 16);
+    font-weight: bold;
+}
+input, textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(186, 16, 16);
+}
+textarea {
+    height: 20rem;
+}
+
+.personal button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 0.1rem;
+    border: 2px solid rgb(186, 16, 16);
+    background-color: white;
+    color: rgb(186, 16, 16);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 1rem;
+    justify-self: center;
+    width: 50%;
+}
+.personal button:hover {
+    background-color: rgb(186, 16, 16);
+    color: white;
+}
+
+.about-input textarea {
+    min-height: 100px;
+    resize: vertical;
+}

@@ -1,0 +1,66 @@
+.cv {
+    margin: 2rem;
+    border: 2px solid rgb(36, 120, 33);
+    color: rgb(36, 120, 33);
+    border-radius: 0.2rem;
+
+    background-color: white;
+    padding: 0.2rem 0.75rem;
+}
+
+.cv-hr {
+    background-color: green;
+}
+
+.name {
+    text-align: center;
+    padding-top: 0.8rem;
+}
+
+.details {
+    padding: 0.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    font-size: 1.2rem;
+}
+
+.details img {
+    width: 2rem;
+}
+
+.last-details {
+    padding-bottom: 1.5rem;
+}
+
+.about-me {
+    padding: 0.5rem 2.5rem;
+}
+
+.about-p {
+    padding-top: 1rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-width: 100%;
+    padding-bottom: 1rem;
+}
+
+button {
+    margin: 0rem 2rem 2rem 2rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(36, 120, 33);
+    font-size: 1rem;
+    font-weight: bold;
+    border: 2px solid rgb(36, 120, 33);
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(36, 120, 33);
+    color: white;
+}

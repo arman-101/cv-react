@@ -1,0 +1,22 @@
+.footer {
+    background-color: white;
+    color: black;
+    border-top: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 0.5rem;
+}
+.footer p {
+    font-size: 1.2rem;
+}
+.footer img {
+    width: 2rem;
+    transition: 0.2s ease;
+}
+.footer img:hover {
+    width: 2.2rem;
+}
